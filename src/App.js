@@ -1,15 +1,10 @@
-import logo from './logo.svg';
-import './App.css';
+import './index.css';
+import Navbar from './components/Navbar'
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Gwandu 2016 Old Boys
-        </p>
-      </header>
+      <Navbar />
     </div>
   );
 }
